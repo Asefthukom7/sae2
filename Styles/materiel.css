@@ -1,0 +1,343 @@
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 25px;
+    background-color: rgb(255, 255, 255);
+    background-image: url("");
+    max-height: 800px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+#hdp{
+    background-color: rgb(47, 42, 133);
+    width: 100%;
+    height: 100%;
+    height: 70px;
+    padding-bottom: 10px;
+    position: fixed;
+    padding-top: 10px;
+    margin-top: -125px;
+    z-index: 2;
+}
+
+#hdp a{
+    text-decoration: none;
+}
+nav{
+    display: flex;   
+    margin-right: 50px;
+    width: 100%;
+    height: 100%;
+}
+#logo img{
+    width: 220px;
+    margin-left: 50px;
+}
+.barre{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.barre #mat{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    height: 20px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.barre #mat:hover{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    height: 20px;
+    width: 100px;
+}
+
+.barre #res{
+    text-align: center;
+    border: 1px solid rgb(30, 30, 141);
+    height: 20px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.barre #res:hover{
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    height: 20px;
+    width: 100px;
+}
+
+.barre #onglet1{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px; 
+}
+
+
+.barre #onglet2{
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;   
+}
+
+.monc{
+    text-align: center;
+    margin-right: 2%;
+}
+
+
+.monc button{
+    float: right;
+    margin-top: 15px;
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: rgb(30, 30, 141);
+    transition-duration: 0.5s;
+    border: 1px solid rgb(30, 30, 141);
+}
+
+.monc button:hover{ 
+    border-color: white; 
+    cursor: pointer;
+}
+
+.materiels{
+    width:100%;
+    height: 100%;
+}
+.materiels #barre_de_recherche{
+    margin-top: 100px;
+    padding: 50px;
+    margin-left: 250px;
+}
+
+.blocsecondaire{
+    display: flex;
+    padding: 50px;
+    margin-left: 250px;
+}
+
+.image{
+    border: 1px solid black;
+    width: 350px;
+}
+
+.cont{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.nom_mat{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.descriptions{
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+.descriptions .caracteristique1{
+    display: flex;
+}
+
+.descriptions .caracteristique1 .carac0{
+    padding-left: 50px;
+}
+
+.descriptions .caracteristique1 .carac1{
+    padding-left: 143px;
+}
+
+.descriptions .caracteristique1 .carac2{
+    padding-left: 179px;
+}
+
+.descriptions .caracteristique1 .carac3{
+    padding-left: 110px;
+}
+.descriptions .caracteristique1 .carac4{
+    padding-left: 147px;
+}
+                                                .descriptions .caracteristique2{
+                                                    display: flex;
+                                                }
+
+                                                .descriptions .caracteristique2 .carac0{
+                                                    padding-left: 50px;
+                                                }
+
+                                                .descriptions .caracteristique2 .carac1{
+                                                    padding-left: 168px;
+                                                }
+
+                                                .descriptions .caracteristique2 .carac2{
+                                                    padding-left: 191px;
+                                                }
+
+                                                .descriptions .caracteristique2 .carac3{
+                                                    padding-left: 158px;
+                                                }
+                                                .descriptions .caracteristique2 .carac4{
+                                                    padding-left: 155px;
+                                                }
+                                                .descriptions .caracteristique2 .carac5{
+                                                    padding-left: 140px;
+                                                }
+                                                .descriptions .caracteristique2 .carac6{
+                                                    padding-left: 127px;
+                                                }
+
+                                                                                        .descriptions .caracteristique3{
+                                                                                            display: flex;
+                                                                                        }
+
+                                                                                        .descriptions .caracteristique3 .carac0{
+                                                                                            padding-left: 50px;
+                                                                                        }
+
+                                                                                        .descriptions .caracteristique3 .carac1{
+                                                                                            padding-left: 130px;
+                                                                                        }
+
+                                                                                        .descriptions .caracteristique3 .carac2{
+                                                                                            padding-left: 163px;
+                                                                                        }
+
+                                                                                        .descriptions .caracteristique3 .carac3{
+                                                                                            padding-left: 174px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac4{
+                                                                                            padding-left: 79px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac5{
+                                                                                            padding-left: 79px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac6{
+                                                                                            padding-left: 205px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac7{
+                                                                                            padding-left: 175px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac8{
+                                                                                            padding-left: 78px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac9{
+                                                                                            padding-left: 12px;
+                                                                                        }
+                                                                                        .descriptions .caracteristique3 .carac10{
+                                                                                            padding-left: 66px;
+                                                                                        }
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    }
+    
+   
+    
+    .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: rgb(15, 39, 59);
+    }
+    
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+
+    .l-footer h1{
+        width: 100%;
+        min-width: 100px;
+        padding-top: 6px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: rgb(0, 0, 0);
+    }
+    
+    
+    .b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: #999;
+    }   
+    
+    @media screen and (min-width: 600px) {
+    .r-footer > * {
+    flex: 1;
+    }
+    
+    .features {
+    flex-grow: 2;
+    }
+    
+    .l-footer {
+    flex: 1 0px;
+    }
+    
+    .r-footer {
+    flex: 2 0px;
+    }
+    }
+    
